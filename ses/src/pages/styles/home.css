@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
 body{
   background: url('../../images/bg.png');
   background-size: cover;
@@ -9,9 +11,37 @@ body{
 }
 
 .rock{
-  width: 100vw;
   position: absolute;
   z-index: -2;
-  top:0;
+  top:10vh;
+  right:10vw;
+}
+
+.bubble{
+  position: absolute;
+  z-index: -2;
+  bottom: 0;
+  right:0;
+}
+
+.logo{
+  position: absolute;
+  z-index: -2;
+  top: 0;
   left: 0;
+}
+
+.motto{
+  position: absolute;
+  top: 20vh;
+  right: 12vw;
+  color: white;
+  letter-spacing: 0.3rem;
+  font-family:'Encode Sans Expanded' ;
+}
+
+.mottopp{
+  top:22vh;
+  font-size: 2rem;
+  font-weight: 800;
 }
