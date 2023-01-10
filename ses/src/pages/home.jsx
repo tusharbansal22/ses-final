@@ -1,8 +1,12 @@
 import React from "react";
+import "./styles/home.css"
 
 function Home(){
   return(
-    <h1>Hello</h1>
+    <div className="main">
+    <img className="rock" src={require("../images/rock.png")} alt="the wok"/>
+
+    </div>
   )
 }
 
