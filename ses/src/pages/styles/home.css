@@ -1,17 +1,24 @@
-body{
-  background: url('../../images/bg.png');
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../../images/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.main{
-  width:100vw;
+.main {
+  width: 100vw;
   height: 100vh;
 }
 
-.rock{
+.rock {
   width: 100vw;
   position: absolute;
   z-index: -2;
-  top:0;
+  top: 0;
   left: 0;
 }
+
+
