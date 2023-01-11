@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Member from './pages/member';
 import Magazine from './pages/magazine';
+import Mag from './pages/mag';
 
 // import "./index.css";
 
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Magazine",
-    element: <Magazine/>,
+    element: <Mag/>,
   },
 ]);
 

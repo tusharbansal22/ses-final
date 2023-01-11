@@ -7,32 +7,35 @@
 }
 
 body{
+  background: black;
+  color: #fff;
+  height: 1000vh;
+}
+.main {
   background: url('../../assets/images/bg.png');
   background-size: cover;
   background-repeat: no-repeat;
-}
-.main {
+  z-index: -4;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .rock{
   position: absolute;
-  z-index: -2;
+
   top:10vh;
   right:10vw;
 }
 
 .bubble{
   position: absolute;
-  z-index: -2;
+
   bottom: 0;
   right:0;
 }
 
 .logo{
   position: absolute;
-  z-index: -2;
   top: 0;
   left: 0;
 }
@@ -50,4 +53,14 @@ body{
   top:22vh;
   font-size: 2rem;
   font-weight: 800;
+}
+
+.part1{
+  position: absolute;
+  top:100vh;
+  height:100vh;
+}
+
+.home p{
+  font-size: larger;
 }
