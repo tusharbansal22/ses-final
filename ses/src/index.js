@@ -5,8 +5,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './pages/home';
 import Member from './pages/member';
+import Magazine from './pages/magazine';
 
 // import "./index.css";
 
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Magazine",
-    element: <App/>,
+    element: <Magazine/>,
   },
 ]);
 

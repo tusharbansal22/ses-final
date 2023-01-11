@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  background: url('../../images/bg.png');
+  background: url('../../assets/images/bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
