@@ -35,8 +35,8 @@ function Home() {
           whileInView={{
             opacity: 1,
             scale: 2,
-            transition: { delay: 2, duration: 1.2, bounce: 0.5 },
-            x: 400,
+            transition: { delay: 1, duration: 1.2, bounce: 0.5 },
+            x: 1200,
             y: 200,
           }}
         >
@@ -47,8 +47,8 @@ function Home() {
           whileInView={{
             opacity: 1,
             scale: 2,
-            transition: { delay: 2.5, duration: 1.2 },
-            x: 400,
+            transition: { delay: 1, duration: 1.2 },
+            x: 1200,
             y: 250,
           }}
         >
@@ -56,23 +56,20 @@ function Home() {
         </motion.div>
 
         <div className="part1">
-          <div>
-            <br></br>
-            <br></br>
-            <br></br>
-          </div>
-          <motion.div
+          
+          <motion.div className="welcome-msg"
             initial={{ opacity: 0 }}
             whileInView={{
               opacity: 1,
               scale: 2,
               transition: { delay: 0.5, duration: 1.2 },
-              x: 200,
+              x: 1200,
               y: 100,
             }}
           >
             <p>Welcome to SES</p>
           </motion.div>
+            <div className="about"></div>
         </div>
       </div>
     </div>
