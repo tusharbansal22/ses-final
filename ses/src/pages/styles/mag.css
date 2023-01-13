@@ -7,12 +7,12 @@ body {
 }
 
 .react-pdf__Page {
-  width: 300px;
-  height: 424px;
+  width: 500px;
+  height: 624px;
 }
 
 .mag{
   position: absolute;
-  top:20vh;
-  left:40vw;
+  top:10vh;
+  left:32vw;
 }

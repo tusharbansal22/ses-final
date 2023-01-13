@@ -11,8 +11,8 @@ for(var i=0;i<40;i++){
   list.push(i);
 }
 
-const width = 300;
-const height = 424;
+const width = 500;
+const height = 624;
 
 const Page = React.forwardRef(({ pageNumber }, ref) => {
   return (
